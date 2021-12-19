@@ -1,0 +1,15 @@
+.gold-background {
+  display: flex;
+  align-items: center;
+  background-color:#cd8932;
+  background-image: url(../images/wall-4-light.png);
+  flex-direction: column;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+  padding-top: 50px;
+  width: 100%;  
+}
+
