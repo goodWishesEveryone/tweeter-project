@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  height: 120px;
+  padding: 0 1.5em;
+  width: 100%;
+  /* places nav infront of header */
+  position: fixed;
+  top: 0; 
+  z-index: 9999;
+}
+
+span {
+  font-family: 'Bungee', sans-serif;
+  font-size: 1.5em;  /*  1.5ems of space on the right and left between the content and the edges  */
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1.5em;
+}
+
+.nav-container p {
+  margin: 0;
+}
+
+.nav-container > i {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
