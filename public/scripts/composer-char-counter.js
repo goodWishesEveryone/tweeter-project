@@ -1,4 +1,4 @@
-// composer-char-counter.js. is the file solely responsible for character counter.
+// composer-char-counter.js. is the file solely responsible character counter.
 
 // function to ensure the DOM has loaded
 $(document).ready(function() {
