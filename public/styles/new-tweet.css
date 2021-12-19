@@ -1,0 +1,15 @@
+.new-tweet {
+  background-color: transparent;
+  max-width: 90%;
+  padding: 25px;
+  width: 100%;
+}
+
+.error-msg {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-weight: bold;
+  width: 80%;
+  margin: auto;
+}
