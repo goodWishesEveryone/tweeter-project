@@ -41,7 +41,7 @@
   </head>
 
   <body>
-    <!-- Top nav bar (fixed) -->
+    <!--  Nav CSS : Top navigation bar (fixed)  -->
     <nav>
       <span>tweeter</span>
       <div class="nav-container">
@@ -61,6 +61,23 @@
     </header>
 
     <!-- Page-specific (main) content here -->
-    <main class="container"></main>
+    <main class="container">
+      <section class="new-tweet">
+        <form id="tweet-form" method="POST" action="/tweets">
+          <p class="error-msg"></p>
+          <br>
+          <div>
+            <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
+          </div>
+          <div class="tweet-button-counter">
+            <button type="submit">Tweet</button>
+            <output name="counter" class="counter" for="tweet-text">140</output>
+          </div>
+        </form>
+        <section id="tweets-container"></section>
+      </section>
+
+
+    </main>
   </body>
 </html>
