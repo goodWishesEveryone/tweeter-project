@@ -29,15 +29,24 @@
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-  
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
-    
+    <script
+      type="text/javascript"
+      src="/scripts/composer-char-counter.js"
+    ></script>
   </head>
 
   <body>
@@ -65,9 +74,13 @@
       <section class="new-tweet">
         <form id="tweet-form" method="POST" action="/tweets">
           <p class="error-msg"></p>
-          <br>
+          <br />
           <div>
-            <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
+            <textarea
+              name="text"
+              id="tweet-text"
+              placeholder="What are you humming about?"
+            ></textarea>
           </div>
           <div class="tweet-button-counter">
             <button type="submit">Tweet</button>
@@ -76,8 +89,6 @@
         </form>
         <section id="tweets-container"></section>
       </section>
-
-
     </main>
   </body>
 </html>

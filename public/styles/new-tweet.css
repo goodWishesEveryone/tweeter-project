@@ -13,3 +13,38 @@
   width: 80%;
   margin: auto;
 }
+
+
+.new-tweet > h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#tweet-text {
+  background: transparent;
+  border: none;
+  border-bottom: solid #656565;
+  color:dimgray;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 50px;
+  outline: none;
+  resize: none;
+  width: 100%;
+}
+
+.tweet-button-counter {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Bungee';
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+button {
+  background-color: #4056A1;
+  border: none;
+  color: white;
+  font-family: 'Bungee';
+}
