@@ -78,7 +78,7 @@ $(() => {
   </header>
       <p class="tweet-text">${escape(tweet.content.text)}</p>
     <footer>
-      <p class="date">${timeago.format(new Date())}</p>
+      <p class="date">${timeago.format(new Date(tweet.created_at))}</p>
       <section class="icons">
       <i class="fas fa-flag"></i>
       <i class="fas fa-retweet"></i>

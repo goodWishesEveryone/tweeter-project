@@ -48,3 +48,9 @@ button {
   color: white;
   font-family: 'Bungee';
 }
+
+button:hover {
+  cursor: pointer;
+  margin: 0px;
+  border: 4px solid #5c9ce0;
+}
