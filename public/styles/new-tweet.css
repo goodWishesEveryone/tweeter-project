@@ -54,3 +54,14 @@ button:hover {
   margin: 0px;
   border: 4px solid #5c9ce0;
 }
+
+.red {
+  color: red;
+}
+
+output {
+  display: flex;
+  align-self:flex-end;
+  font-family: 'Bungee';
+  margin-top: -40px;
+}

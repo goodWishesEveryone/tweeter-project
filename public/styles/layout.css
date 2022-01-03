@@ -33,12 +33,21 @@ main {
   background-color: #f4f1ec;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;   
   margin: auto;
-  width: 90%;
-  outline: none;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  background-color: inherit;
+  width: 100%;
+}
+
+/* RESPONSIVE design for DESKTOP */
+@media (min-width: 1024px){
+  main {
+    float: right;
+    margin-top: -450px;
+    width: 55vw;
+  }
+  #tweets-container {
+    width: 55vw;
+    height: 0vw;
+    margin-top: 250px;
+  }
 }
