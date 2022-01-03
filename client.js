@@ -109,7 +109,7 @@ $(() => {
     // limits maximum of 140 characters per tweet
     if (tweetLength.length > 140) {
       return $(".error-msg")
-        .text("⚠️ Maximum limit of 140 characters ONLY per tweet! ⚠️")
+        .text("⚠️ Maximum limit of 140 characters only per tweet! ⚠️")
         .slideDown(() => {
           setTimeout(() => {
             $(".error-msg").slideUp();
