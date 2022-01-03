@@ -12,10 +12,13 @@ This app is a full-stack web application using:
 
 Desktop View 
 !["Screenshot of Desktop view"](https://github.com/goodWishesEveryone/tweeter-project/blob/38a2bed352f59c1e5d93032e2d50f6301699798f/docs/tweeter-box-desktopView.png?raw=true)
-Tabelet View 
+Tablet View 
 !["Screenshot of Tablet view"](https://github.com/goodWishesEveryone/tweeter-project/blob/38a2bed352f59c1e5d93032e2d50f6301699798f/docs/tweeter-box%20tabletView.png?raw=true)
+Newly Posted Tweet
 !["Screenshot of a Newly Posted Tweet"](https://github.com/goodWishesEveryone/tweeter-project/blob/38a2bed352f59c1e5d93032e2d50f6301699798f/docs/tweet-newlyPosted.png?raw=true)
+Error Message when Tweet Exceeds 140 Characters
 !["Screenshot of Error Message when Tweet Exceeds 140 Characters"](https://github.com/goodWishesEveryone/tweeter-project/blob/38a2bed352f59c1e5d93032e2d50f6301699798f/docs/error-tooLongTweet.png?raw=true)
+Error Message When Tweeting an Empty Message
 !["Screenshot of Error Message When an Empty Tweet is Posted"](https://github.com/goodWishesEveryone/tweeter-project/blob/38a2bed352f59c1e5d93032e2d50f6301699798f/docs/error-emptyTweet.png?raw=true)
 
 
